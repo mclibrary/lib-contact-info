@@ -38,7 +38,13 @@ class ContactWidget extends WP_Widget
 	$content .= '<span itemprop="telephone">423.461.8494</span> (Circulation Desk)<br />';
 	$content .= '<a itemprop="email" href="mailto:library@milligan.edu">library@milligan.edu</a>';
 	$content .= '</div>';
- 	
+ 	$content .= '<div class="sidebar-social-menu">';
+	$content .= '<ul>';
+	$content .= '<li><a href="http://milliganlibrary.wordpress.com/" target="_blank"></a></li><!--Library Blog-->';
+	$content .=	'<li><a href="https://twitter.com/intent/user?screen_name=MilliganLibrary" target="_blank"></a></li><!--Twitter-->';
+	$content .=	'<li><a href="http://www.facebook.com/milligancollegelibrary" target="_blank"></a></li><!--Facebook-->';
+   $content .= '</ul>';
+	$content .=	'</div>';
  	echo $content;
 
     echo $after_widget;
