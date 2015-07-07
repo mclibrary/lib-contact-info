@@ -34,8 +34,8 @@ class ContactWidget extends WP_Widget
 	$content .= 'P.O. Box <span itemprop="postOfficeBoxNumber">600</span><br />';
 	$content .= '<span itemprop="streetAddress">200 Blowers Blvd.</span><br />';
 	$content .= '<span itemprop="addressLocality">Milligan College</span>, <span itemprop="addressRegion">TN</span> <span itemprop="postalCode">37682</span><br />';
-	$content .= '<span itemprop="telephone">423.461.8703</span> (Main Number)<br />';
-	$content .= '<span itemprop="telephone">423.461.8494</span> (Circulation Desk)<br />';
+	$content .= '<span itemprop="telephone">423.461.8703</span> (Welshimer)<br />';
+	$content .= '<span itemprop="telephone">423.461.1540</span> (Seminary)<br />';
 	$content .= '<a itemprop="email" href="mailto:library@milligan.edu">library@milligan.edu</a>';
 	$content .= '</div>';
  	$content .= '<div class="sidebar-social-menu">';
