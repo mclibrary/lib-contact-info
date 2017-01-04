@@ -43,6 +43,7 @@ class ContactWidget extends WP_Widget
 	$content .= '<li><a href="https://library.milligan.edu/blog/"></a></li><!--Library Blog-->';
 	$content .=	'<li><a href="https://twitter.com/intent/user?screen_name=MilliganLibrary" target="_blank"></a></li><!--Twitter-->';
 	$content .=	'<li><a href="https://www.facebook.com/milligancollegelibrary" target="_blank"></a></li><!--Facebook-->';
+	$content .=	'<li><a href="https://www.instagram.com/milliganlibrary/" target="_blank"></a></li>';
    $content .= '</ul>';
 	$content .=	'</div>';
  	echo $content;
