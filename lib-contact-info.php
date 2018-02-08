@@ -39,11 +39,11 @@ class ContactWidget extends WP_Widget
 	$content .= '</div>';
  	$content .= '<div class="sidebar-social-menu">';
 	$content .= '<ul>';
-	$content .= '<li><a href="https://library.milligan.edu/blog/"></a></li><!--Library Blog-->';
+	$content .=	'<li style="margin: 3px 0 -3px 0;"><a href="mailto:library@milligan.edu"></a></li>';
+	$content .= 	'<li><a href="https://library.milligan.edu/blog/"></a></li><!--Library Blog-->';
 	$content .=	'<li><a href="https://twitter.com/intent/user?screen_name=MilliganLibrary" target="_blank"></a></li><!--Twitter-->';
 	$content .=	'<li><a href="https://www.facebook.com/milligancollegelibrary" target="_blank"></a></li><!--Facebook-->';
 	$content .=	'<li><a href="https://www.instagram.com/milliganlibraries/" target="_blank"></a></li>';
-	$content .=	'<li style="margin: 3px 0 -3px 0;"><a href="mailto:library@milligan.edu"></a></li>';
    $content .= '</ul>';
 	$content .=	'</div>';
  	echo $content;
